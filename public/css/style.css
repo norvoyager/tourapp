@@ -123,6 +123,7 @@ body {
   );
   background-image: linear-gradient(to right, #a3baae, #8ebca4);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   letter-spacing: 0.1rem;
   line-height: 1.3;
