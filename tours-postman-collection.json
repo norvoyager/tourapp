@@ -1,8 +1,8 @@
 {
 	"info": {
 		"_postman_id": "460e30fe-57f6-4d86-8515-611a5a134b96",
-		"name": "Natours",
-		"description": "The Natours APi contains endpoints for Tours, Users, and Reviews.",
+		"name": "Norvoyager",
+		"description": "The Norvoyager APi for a webapp.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -956,7 +956,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"email\": \"admin@natours.io\",\n\t\"password\": \"{{password}}\"\n}"
+							"raw": "{\n\t\"email\": \"admin@nordicvoyager.com\",\n\t\"password\": \"{{password}}\"\n}"
 						},
 						"url": {
 							"raw": "{{URL}}api/v1/users/login",
@@ -986,7 +986,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n\t\"email\": \"test3@natours.io\"\n}"
+							"raw": "{\n\t\"email\": \"admin@nordicvoyager.com\"\n}"
 						},
 						"url": {
 							"raw": "{{URL}}api/v1/users/forgotPassword",
